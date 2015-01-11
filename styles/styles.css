@@ -1,0 +1,57 @@
+.local-var, .php-var, .predefinedConstants,
+.predefinedVariables, .predefinedFunctions,
+.keywords, .module{
+    background: #111;
+    color: #fff;
+    text-shadow: #000 0 -1px 0;
+    border-radius: 50%;
+    padding: 5px 10px;
+    display: inline-block;
+    width: 20px;
+    width: 0px;
+    height: 10px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.local-var:after, .php-var:after, .predefinedConstants:after,
+.predefinedVariables:after, .predefinedFunctions:after,
+.keywords:after, .module:after {
+    content: 'V';
+    margin-left: -3px;
+    top: -4px;
+    vertical-align: middle;
+    position: relative;
+}
+.php-var {
+    background: #610B5E;
+}
+.predefinedConstants {
+    background: #900;
+}
+.predefinedConstants:after {
+    content: 'C';
+}
+.predefinedVariables {
+    background: #006644;
+}
+.predefinedVariables:after {
+    content: 'V';
+}
+.predefinedFunctions {
+    background: #996600;
+}
+.predefinedFunctions:after {
+    content: 'F';
+}
+.keywords {
+    background: #006699;
+}
+.keywords:after {
+    content: 'K';
+}
+.module {
+    background: #a4a4a4;
+}
+.module:after {
+    content: 'E';
+}

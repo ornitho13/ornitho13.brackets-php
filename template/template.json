@@ -1,0 +1,17 @@
+{
+    "class" : "class \n{\n\t\n}\n",
+    "if" : "if () {\n\t\n}\n",
+    "else" : "else { \n\t\n}\n",
+    "elseif" : "else { \n\t\n}\n",
+    "foreach" : "foreach () {\n\t\n}\n",
+    "for" : "for () {\n\t\n}\n",
+    "while" : "while () {\n\t\n}\n",
+    "do" : "do {\n\t\n} while ();",
+    "function" : "function () {\n\t\n}\n",
+    "declare" : "declare () {\n\t\n}\n",
+    "require" : "require '';",
+    "require_once" : "require_once '';",
+    "include" : "include '';",
+    "include_once" : "include_once '';"
+    
+}

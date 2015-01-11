@@ -1,0 +1,12 @@
+{
+    "name": "ornitho13.brackets-php",
+    "title": "PHP Syntax helper",
+    "description": "auto complete php",
+    "homepage": "http://www.jerome-debray.fr",
+    "version": "0.0.1",
+    "author": "Jerome DEBRAY <ornitho13@gmail.com> (https://github.com/ornitho13)",
+    "license": "MIT",
+    "engines": {
+        "brackets": ">=1.0"
+    }
+}
